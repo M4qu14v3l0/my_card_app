@@ -30,14 +30,14 @@ class HomePage extends StatelessWidget {
             const CircleAvatar(
               radius: 65,
               backgroundImage: NetworkImage(
-                'https://images.pexels.com/photos/16145493/pexels-photo-16145493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                'https://media.licdn.com/dms/image/D4E03AQFM2oztAZOL5A/profile-displayphoto-shrink_200_200/0/1670877517602?e=1687996800&v=beta&t=zSvmX8oTGfU19L-3y8Cp8c9LZp1jAj7bYU671fy1xys',
               ),
             ),
             const SizedBox(
               height: 12,
             ),
             const Text(
-              'Yin Chang',
+              'Marcelo Llerena',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 25,
@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
                   Icons.phone,
                   color: Colors.indigo,
                 ),
-                title: Text('+51 944 536 789'),
+                title: Text('+51 933 760 767'),
                 subtitle: Text('Teléfono'),
                 trailing: Icon(
                   Icons.check_circle_outline,
@@ -87,7 +87,7 @@ class HomePage extends StatelessWidget {
                   Icons.mail,
                   color: Colors.indigo,
                 ),
-                title: Text('Yin_Chang@gmail.com'),
+                title: Text('marcelo.gabriel.llerena@gmail.com'),
                 subtitle: Text('Correo electrónico'),
                 trailing: Icon(
                   Icons.check_circle_outline,
